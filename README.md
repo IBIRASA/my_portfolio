@@ -2,3 +2,5 @@ My_portfolio
 -------------------------
 
 Day 1: Worked on Landing page and about us (some animations)
+Day 2: Worked on About Us
+Day 3: Worked on the experience, contact and footer section
