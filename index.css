@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-#navbar
+.navbar
 {
     position: fixed;
     top: 0;
@@ -142,22 +142,125 @@ color:#660000;
 /*---------------------------------------------------------------Experience_section-------------------------------------------------------*/
 .Experience_section
 {
-    height: 87vh;
-    padding: 10px 140px;
+    height: 90vh;
+    padding: 10px 120px;
     background-color: #660000;
+    
+}
+.experince_content
+{
+    text-align: center;
+    padding-top: 85px;
+ 
+}
+.experience-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Years_of_experience
+{
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 320px;
+    border-style: dotted;
+    margin-top: 6%;
+
+}
+.Projects
+{
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 320px;
+    border-style: dotted;
+    z-index: 9;
+}
+.Certificates
+{
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 320px;
+    border-style: dotted;
+    margin-top: 6%;
+}
+.Year_in_university
+{
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 320px;
+    border-style: dotted;
+    margin-top: 6%;
 }
 /*---------------------------------------------------------------Contact_Us-section--------------------------------------------------------*/
-.Contact_Us_section
+.contact_content
 {
-    height: 25vh;
+    height: 75vh;
+    padding: 70px 145px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.address-contact
+{
+    padding-top: 90px;
+}
+.contact-us
+{
+    padding-top: 90px;
+    
+}
+input
+{
+    border: none;
+    border-bottom: 2px solid #870808;
+    width: 400px;
+    padding: 22px;
+    padding-top: 13%;
+    padding-left: 0px;
+}
+.address-i
+{
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+    
+
+}
+.address-p
+{
+    margin-top: 6%;
+    margin-left: 6%;
 }
 /*---------------------------------------------------------------Footer-section------------------------------------------------------------*/
 .Footer_section
 {
-    height: 25vh;
+    height: 9vh;
+    background-color: #660000;
+}
+.footer-content
+{
+    color: grey;
+    padding-top:2%;
 }
 /*--------------------------------------------------------------------Images---------------------------------------------------------------*/
 
+.underline
+{
+    width: 100px;
+    border: 1px solid #430101;
+    margin-left:2%;
+}
+.underline-experience
+{
+    width: 100px;
+    border: 2px solid #fffefe;
+    margin-left:2%;
+ 
+}
 .main-image
 {
    background-image: url("images/my_image.jpg");
@@ -266,3 +369,5 @@ p{
 {
     margin-left: 2%;
 }
+
+
