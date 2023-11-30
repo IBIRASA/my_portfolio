@@ -29,6 +29,10 @@
 {
     background-color: #e23232;
 }
+.white-bg
+{
+    background-color: #f5f0f0;
+}
 /*------------------------------------------------------------Font-colors---------------------------------------------------------------*/
 .text_red
 {
@@ -105,6 +109,12 @@ color:#660000;
     padding: 6px 35px;
     border: 3px solid #b3b2b2;
 }
+.E-button
+{
+    padding: 6px 35px;
+    border: 1px solid #540a0a;
+}
+
 /*---------------------------------------------------------------Font-------------------------------------------------------------------*/
 .Font-bold
 {
@@ -124,7 +134,7 @@ color:#660000;
 /*---------------------------------------------------------------Experience_section-------------------------------------------------------*/
 .Experience_section
 {
-    height: 90vh;
+    height: 100vh;
     padding: 10px 120px;
     background-color: #660000;
     
@@ -137,43 +147,66 @@ color:#660000;
 }
 .experience-box
 {
+    margin-top: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    padding: 0px 95px;
+   
 }
-
+.text-align-left
+{
+    text-align: left;
+}
 .Years_of_experience
 {
     border: 2px solid rgb(242, 240, 240);
     width: 22.5%;  
-    height: 320px;
+    height: 360px;
     border-style: dotted;
-    margin-top: 6%;
+    padding: 20px 57px;
+    position: absolute;
+
 
 }
 .Projects
 {
+    position: absolute;
     border: 2px solid rgb(242, 240, 240);
     width: 22.5%;  
-    height: 320px;
+    height: 360px;
     border-style: dotted;
-    z-index: 9;
+    margin-left: 20%;
+    margin-top: 10%;
+    z-index: 2;
+    padding: 20px 57px;
+    background-color: #660000;
 }
 .Certificates
 {
+    position: absolute;
     border: 2px solid rgb(242, 240, 240);
     width: 22.5%;  
-    height: 320px;
+    height: 360px;
     border-style: dotted;
-    margin-top: 6%;
+    padding: 20px 57px;
+    margin-left: 40%;
+
+    z-index: 1 ;
 }
 .Year_in_university
 {
+    position: absolute;
     border: 2px solid rgb(242, 240, 240);
     width: 22.5%;  
-    height: 320px;
+    height: 360px;
     border-style: dotted;
-    margin-top: 6%;
+    margin-left: 60%;
+    margin-top: 10%;
+    background-color: #660000;
+    padding: 0px 57px;
+    z-index: 3;
 }
 /*---------------------------------------------------------------Contact_Us-section--------------------------------------------------------*/
 .contact_content
@@ -226,7 +259,7 @@ input
 .footer-content
 {
     color: grey;
-    padding-top:2%;/z
+    padding-top:2%;
 }
 /*--------------------------------------------------------------------Images---------------------------------------------------------------*/
 
@@ -242,6 +275,13 @@ input
     border: 2px solid #fffefe;
     margin-left:2%;
  
+}
+.underline-experience-box
+{
+    width: 100px;
+    border: 1px solid #ffffff;
+    margin-left:2%;
+    margin-top: 0;
 }
 .main-image
 {
@@ -342,7 +382,7 @@ p{
 .about-content
 {
     text-align: left;
-  padding: 10px 20px 10px 330px;
+    padding: 10px 20px 10px 330px;
     height: 330px;
     margin: 85px 50px;
 }
@@ -351,5 +391,3 @@ p{
 {
     margin-left: 2%;
 }
-
-
